@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"/>
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/related_videos_root_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+        <View
+            android:id="@+id/related_minimized_player_template"
+            android:layout_width="580.0dip"
+            android:layout_height="326.0dip" />
+
+        <com.haystack.android.tv.widget.HSVideoCardView
+            android:id="@+id/related_card_1"
+            android:layout_width="@dimen/related_video_card_width"
+            android:layout_height="@dimen/related_video_card_height"
+            android:layout_below="@+id/related_minimized_player_template"
+            android:layout_marginTop="@dimen/related_video_card_vertical_margin"
+            android:focusable="true"
+            android:nextFocusLeft="@+id/related_card_1"
+            android:visibility="invisible" />
+
+        <com.haystack.android.tv.widget.HSVideoCardView
+            android:id="@+id/related_card_2"
+            android:layout_width="@dimen/related_video_card_width"
+            android:layout_height="@dimen/related_video_card_height"
+            android:layout_below="@+id/related_minimized_player_template"
+            android:layout_marginStart="@dimen/related_video_card_horizontal_margin"
+            android:layout_marginTop="@dimen/related_video_card_vertical_margin"
+            android:layout_toEndOf="@+id/related_card_1"
+            android:focusable="true"
+            android:visibility="invisible" />
+
+        <com.haystack.android.tv.widget.HSVideoCardView
+            android:id="@+id/related_card_3"
+            android:layout_width="@dimen/related_video_card_width"
+            android:layout_height="@dimen/related_video_card_height"
+            android:layout_below="@+id/related_minimized_player_template"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginTop="9.0dip"
+            android:layout_toEndOf="@+id/related_card_2"
+            android:focusable="true"
+            android:visibility="invisible" />
+
+        <com.haystack.android.tv.widget.HSVideoCardView
+            android:id="@+id/related_card_4"
+            android:layout_width="@dimen/related_video_card_width"
+            android:layout_height="@dimen/related_video_card_height"
+            android:layout_below="@+id/related_up_next_card_button"
+            android:layout_marginStart="@dimen/related_video_card_horizontal_margin"
+            android:layout_marginTop="@dimen/related_video_card_vertical_margin"
+            android:layout_toEndOf="@+id/related_minimized_player_template"
+            android:focusable="true"
+            android:visibility="invisible" />
+
+        <FrameLayout
+            android:id="@+id/related_up_next_card_button"
+            android:layout_width="@dimen/related_video_card_width"
+            android:layout_height="@dimen/related_video_card_height"
+            android:layout_marginStart="@dimen/related_video_card_horizontal_margin"
+            android:layout_toEndOf="@+id/related_minimized_player_template"
+            android:focusable="true">
+
+            <com.haystack.android.tv.widget.HSVideoCardView
+                android:id="@+id/related_up_next_card"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <TextView
+                android:id="@+id/related_up_next_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8.0dip"
+                android:layout_marginTop="8.0dip"
+                android:text="Up Next:"
+                android:textColor="@android:color/white" />
+
+            <FrameLayout
+                android:id="@+id/related_up_next_countdown_root"
+                android:layout_width="140.0dip"
+                android:layout_height="140.0dip"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible">
+
+                <View
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_gravity="center" />
+
+                <ProgressBar
+                    android:id="@+id/related_up_next_countdown_progress_bar"
+                    style="?android:progressBarStyleHorizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:indeterminate="false"
+                    android:max="10000"
+                    android:progress="1"
+                    android:secondaryProgress="10000" />
+
+                <TextView
+                    android:id="@+id/related_up_next_countdown_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="20.0sp" />
+            </FrameLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <com.haystack.android.common.widget.ColorProgressBar
+        android:id="@+id/related_progress_wheel"
+        style="?android:progressBarStyleLarge"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="80.0dip"
+        app:indeterminateColorHex="0xFFFFFFFF" />
+
+    <TextView
+        android:id="@+id/related_error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="80.0dip"
+        android:fontFamily="sans-serif-condensed"
+        android:visibility="invisible" />
+</FrameLayout>-->

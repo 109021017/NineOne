@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent" android:layout_height="match_parent"/>
+<!--<android.support.v17.leanback.widget.BrowseFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/browse_headers_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:transitionGroup="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="17.0" />
+
+        <View
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="64.0"
+            android:background="#FFF" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/hs_browse_rows_margin_start"
+        android:layout_marginTop="@dimen/hs_browse_rows_margin_top">
+
+        <fragment
+            android:id="@+id/main_channel_row_fragment"
+            android:name="com.haystack.android.tv.ui.fragments.HSRowsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.haystack.android.common.widget.ColorProgressBar
+            android:id="@+id/main_channel_progress_wheel"
+            style="?android:progressBarStyleLarge"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48.0dip"
+            android:visibility="invisible"
+            app:indeterminateColorHex="0xFFFFFFFF" />
+
+        <TextView
+            android:id="@+id/main_channel_error_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48.0dip"
+            android:fontFamily="sans-serif-condensed"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/hs_browse_header_width"
+        android:layout_height="fill_parent">
+
+        <fragment
+            android:id="@+id/main_channel_headers_fragment"
+            android:name="com.haystack.android.tv.ui.fragments.HSHeadersFragment"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"/>
+    </FrameLayout>
+
+    <View
+        android:id="@+id/main_headers_selection_highlight"
+        android:layout_width="@dimen/hs_browse_header_width"
+        android:layout_height="34.0dip"
+        android:layout_marginTop="@dimen/hs_browse_header_highlight_margin_top"/>
+
+    <FrameLayout
+        android:id="@+id/main_player_container"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/hs_browse_player_margin_start"
+        android:layout_marginTop="@dimen/hs_browse_player_margin_top"
+        android:focusable="false"
+        android:focusableInTouchMode="false">
+
+        <fragment
+            android:id="@+id/main_player_fragment"
+            android:name="com.haystack.android.common.media.ui.HSAdsVideoPlayerFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </FrameLayout>
+</android.support.v17.leanback.widget.BrowseFrameLayout>-->

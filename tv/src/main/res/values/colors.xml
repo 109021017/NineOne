@@ -1,0 +1,17 @@
+<resources>
+    <color name="background_color">#111111</color>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">#ffFF0000</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="selected_background">#AAFFFFFF</color>
+    <color name="default_background">#00000000</color>
+
+
+    <color name="lb_playback_icon_highlight_no_theme">#ffFF0000</color>
+    <color name="lb_playback_progress_color_no_theme">#ffFF5555</color>
+    <color name="lb_playback_secondary_progress_color">#33FFFFFF</color>
+    <color name="lb_playback_background_progress_color">#19FFFFFF</color>
+
+    <color name="search">#ff363f</color>
+</resources>
